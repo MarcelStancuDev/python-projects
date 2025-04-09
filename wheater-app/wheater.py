@@ -20,7 +20,7 @@ def display_weather(data):
         print(f"Pressure: {pressure} hPa")
         print(f"Humidity: {humidity}%")
         print(f"Description: {weather_description}")
-        else:
+    else:
         print("City not found!")
 
 def main():
